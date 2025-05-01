@@ -1,0 +1,37 @@
+@import url("../../../inc/404/index.html");
+.CMSmodal-home {opacity: 0;transition: opacity 1s ease-out;}
+@keyframes slideIn {from {transform: translateY(-60px);opacity: 0;}to {transform: translateY(-50%);opacity: 1;}}
+.CMSmodal-home:has(.message-CMSmodal) { /* When modal is present */opacity: 1;}
+body .CMSmodal-home .message-CMSmodal {position: absolute;width: 880px;margin: 0 30px;padding: 0;left: calc(50% - 440px - 20px - 10px);max-height: calc(100vh - 150px);overflow: hidden;overflow-y: auto;border: 1px solid rgba(220, 220, 220, 1);box-shadow: 0 5px 10px #333;animation: slideIn 1s ease-out forwards;}
+.CMSmodal-bg{ background: rgba(0,0,0,0) !important; z-index: -100 !important; transition: 2s;}
+.CMSmodal-home h1 {color:auto}.CMSmodal-home .message-CMSmodal .CMSmodal-content {min-height:225px;}
+.CMSmodal-home .message-CMSmodal .CMSmodal-content a.close-CMSmodal:hover {-webkit-transform: rotate(180deg); transform: rotate(180deg);background-image: url(close.png) !important;}
+.CMSmodal-home {display:block;}
+body .CMSmodal-home {z-index: 99999999;}
+.CMSmodal-home {background: rgba(0, 0, 0, 0.6);position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 100000001;transition: 1s;visibility: visible;}
+.CMSmodal-home a {background:none;}
+body .CMSmodal-home .message-CMSmodal {top: 50%;}
+/*.CMSmodal-home .message-CMSmodal {position: absolute;width: 880px;margin: 0 30px;padding:0;transform:translateY(-50%);left: calc(50% - 440px - 20px - 10px);max-height:calc(100vh - 150px);overflow: hidden; overflow-y: auto; border:1px solid rgba(220, 220, 220, 1);box-shadow: 0 5px 10px #333;transition: 1.5s;}*/
+.CMSmodal-home .message-CMSmodal .CMSmodal-content {background: #FFF;background-position: -120px 50px;box-shadow: inset 0 0 0 1px #fff;display: inline-block;width: 100%;height: 100%;text-align: center;}
+.CMSmodal-home .message-CMSmodal .CMSmodal-content .CMSmodal-text {display: block;padding:55px 45px 45px 45px;}
+.CMSmodal-home .message-CMSmodal .CMSmodal-content .CMSmodal-text p {margin:20px 0;}
+.CMSmodal-home .message-CMSmodal .CMSmodal-content a.close-CMSmodal {position: absolute;top:20px;right:20px;background: none;border-radius: 50%;padding: 0px;}
+.CMSmodal-home .message-CMSmodal .CMSmodal-content a.close-CMSmodal:hover { background: url(../../../inc/modal/close-black.png) no-repeat bottom center; padding: 0; height: 42px; width: 42px; transition: 1s;}
+.CMSmodal-home .message-CMSmodal .CMSmodal-content a.close-CMSmodal:hover img {opacity: 0; transition: 1s;}
+.CMSmodal-home h1, .CMSmodal-home h1:before {background-color:#FFF;background-image:none;color:#898989;}
+.hide-CMSmodal {transition: 2s;visibility: hidden;top: 2500px !important; /*left:3000px !important;*/}
+.hide-CMSmodal .CMSmodal-home { background: black; }
+
+@media only screen and (max-width: 960px) {
+.CMSmodal-home .message-CMSmodal {width: calc(100% - 50px);margin: 20px 20px 10px 20px;left: 10px;}
+body .CMSmodal-home .message-CMSmodal {max-height:calc(100vh - 200px); left: 0!important; right: 0!important; margin: auto!important; max-width: 95%; }
+.CMSmodal-home .message-CMSmodal .CMSmodal-content .CMSmodal-text { padding: 80px 5% 30px!important; }
+
+}
+.open-CMSmodal{z-index: 99999999 !important;display:none;width:52px;height:52px;color:transparent;position:fixed;right:30px;bottom:80px;z-index:9999;background:url(bell.png);-moz-background-size:contain;background-size:contain;-moz-border-radius:50%;border-radius:50%;-webkit-box-shadow:0 0 0 3px rgba(157,207,50,0.5);-moz-box-shadow:0 0 0 3px rgba(190,190,190,0.6);box-shadow:0 0 0 3px rgba(190,190,190,0.6);-webkit-transition:0.6s ease-out;-moz-transition:0.6s ease-out;transition:0.6s ease-out;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}
+
+@-webkit-keyframes shake{1%,9%{-webkit-transform:translate3d(-1px, 0, 0);transform:translate3d(-1px, 0, 0)}2%,8%{-webkit-transform:translate3d(2px, 0, 0);transform:translate3d(2px, 0, 0)}3%,5%,7%{-webkit-transform:translate3d(-4px, 0, 0);transform:translate3d(-4px, 0, 0)}4%,6%{-webkit-transform:translate3d(4px, 0, 0);transform:translate3d(4px, 0, 0)}10%,100%{-webkit-transform:translate3d(0);transform:translate3d(0)}}
+@-moz-keyframes shake{1%,9%{-moz-transform:translate3d(-1px, 0, 0);transform:translate3d(-1px, 0, 0)}2%,8%{-moz-transform:translate3d(2px, 0, 0);transform:translate3d(2px, 0, 0)}3%,5%,7%{-moz-transform:translate3d(-4px, 0, 0);transform:translate3d(-4px, 0, 0)}4%,6%{-moz-transform:translate3d(4px, 0, 0);transform:translate3d(4px, 0, 0)}10%,100%{-moz-transform:translate3d(0);transform:translate3d(0)}}
+@keyframes shake{1%,9%{-webkit-transform:translate3d(-1px, 0, 0);-moz-transform:translate3d(-1px, 0, 0);transform:translate3d(-1px, 0, 0)}2%,8%{-webkit-transform:translate3d(2px, 0, 0);-moz-transform:translate3d(2px, 0, 0);transform:translate3d(2px, 0, 0)}3%,5%,7%{-webkit-transform:translate3d(-4px, 0, 0);-moz-transform:translate3d(-4px, 0, 0);transform:translate3d(-4px, 0, 0)}4%,6%{-webkit-transform:translate3d(4px, 0, 0);-moz-transform:translate3d(4px, 0, 0);transform:translate3d(4px, 0, 0)}10%,100%{-webkit-transform:translate3d(0);-moz-transform:translate3d(0);transform:translate3d(0)}}
+
+.shake-it-baby{-webkit-animation:shake 9s 1s linear infinite;-moz-animation:shake 9s 1s linear infinite;animation:shake 9s 1s linear infinite}

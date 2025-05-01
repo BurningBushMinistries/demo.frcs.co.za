@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MrEavesSanOT';
+    src: url('MrEavesSanOT-Bold.woff2') format('woff2'),
+        url('MrEavesSanOT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cheddar Jack';
+    src: url('CheddarJack.woff2') format('woff2'),
+        url('CheddarJack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MrEavesSanOT';
+    src: url('MrEavesSanOT-Reg.woff2') format('woff2'),
+        url('MrEavesSanOT-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
