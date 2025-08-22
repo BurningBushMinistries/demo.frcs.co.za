@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120700
 DTSTART;VALUE=DATE:20250901
-UID:http://www.collegiate.greenhousecms.co.uk/Diary/Autumn-Term-begins-2025-09-01/index.asp?PCID=43783
-URL;VALUE=URI:http://www.collegiate.greenhousecms.co.uk/Diary/Autumn-Term-begins-2025-09-01
+UID:http://www.FRC.greenhousecms.co.uk/Diary/Autumn-Term-begins-2025-09-01/index.asp?PCID=43783
+URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Autumn-Term-begins-2025-09-01
 SUMMARY:Autumn Term begins
-DESCRIPTION:; More details - http://www.collegiate.greenhousecms.co.uk/Diary/Autumn-Term-begins-2025-09-01
+DESCRIPTION:; More details - http://www.FRC.greenhousecms.co.uk/Diary/Autumn-Term-begins-2025-09-01
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM
