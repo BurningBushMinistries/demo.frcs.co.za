@@ -9,10 +9,10 @@ BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE-TIME:20260105T000000
 DTEND;VALUE=DATE-TIME:20260106T000000
-UID:http://www.FRC.greenhousecms.co.uk/Diary/Staff-Inset-2026-01-05/index.asp?PCID=43787
-URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Staff-Inset-2026-01-05
+UID:http://www.FRCS.greenhousecms.co.uk/Diary/Staff-Inset-2026-01-05/index.asp?PCID=43787
+URL;VALUE=URI:http://www.FRCS.greenhousecms.co.uk/Diary/Staff-Inset-2026-01-05
 SUMMARY:Staff Inset
-DESCRIPTION:January 5th &amp;amp; 6th.; More details - http://www.FRC.greenhousecms.co.uk/Diary/Staff-Inset-2026-01-05
+DESCRIPTION:January 5th &amp;amp; 6th.; More details - http://www.FRCS.greenhousecms.co.uk/Diary/Staff-Inset-2026-01-05
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

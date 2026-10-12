@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE:20251212
-UID:http://www.FRC.greenhousecms.co.uk/Diary/Autumn-Term-ends-2025-12-12/index.asp?PCID=43786
-URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Autumn-Term-ends-2025-12-12
+UID:http://www.FRCS.greenhousecms.co.uk/Diary/Autumn-Term-ends-2025-12-12/index.asp?PCID=43786
+URL;VALUE=URI:http://www.FRCS.greenhousecms.co.uk/Diary/Autumn-Term-ends-2025-12-12
 SUMMARY:Autumn Term ends
-DESCRIPTION:; More details - http://www.FRC.greenhousecms.co.uk/Diary/Autumn-Term-ends-2025-12-12
+DESCRIPTION:; More details - http://www.FRCS.greenhousecms.co.uk/Diary/Autumn-Term-ends-2025-12-12
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

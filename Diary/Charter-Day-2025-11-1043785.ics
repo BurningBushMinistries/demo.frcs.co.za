@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE:20251110
-UID:http://www.FRC.greenhousecms.co.uk/Diary/Charter-Day-2025-11-10/index.asp?PCID=43785
-URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Charter-Day-2025-11-10
+UID:http://www.FRCS.greenhousecms.co.uk/Diary/Charter-Day-2025-11-10/index.asp?PCID=43785
+URL;VALUE=URI:http://www.FRCS.greenhousecms.co.uk/Diary/Charter-Day-2025-11-10
 SUMMARY:Charter Day
-DESCRIPTION:Half-day.; More details - http://www.FRC.greenhousecms.co.uk/Diary/Charter-Day-2025-11-10
+DESCRIPTION:Half-day.; More details - http://www.FRCS.greenhousecms.co.uk/Diary/Charter-Day-2025-11-10
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

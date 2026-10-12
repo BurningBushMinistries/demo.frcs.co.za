@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE:20260220
-UID:http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-ends-2026-02-20/index.asp?PCID=43792
-URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-ends-2026-02-20
+UID:http://www.FRCS.greenhousecms.co.uk/Diary/Half-Term-ends-2026-02-20/index.asp?PCID=43792
+URL;VALUE=URI:http://www.FRCS.greenhousecms.co.uk/Diary/Half-Term-ends-2026-02-20
 SUMMARY:HalfTerm ends
-DESCRIPTION:; More details - http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-ends-2026-02-20
+DESCRIPTION:; More details - http://www.FRCS.greenhousecms.co.uk/Diary/Half-Term-ends-2026-02-20
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

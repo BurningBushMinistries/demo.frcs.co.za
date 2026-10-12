@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE:20251225
-UID:http://www.FRC.greenhousecms.co.uk/Diary/Christmas-Day-2025-12-25/index.asp?PCID=23557
-URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Christmas-Day-2025-12-25
+UID:http://www.FRCS.greenhousecms.co.uk/Diary/Christmas-Day-2025-12-25/index.asp?PCID=23557
+URL;VALUE=URI:http://www.FRCS.greenhousecms.co.uk/Diary/Christmas-Day-2025-12-25
 SUMMARY:Christmas Day
-DESCRIPTION:More details - http://www.FRC.greenhousecms.co.uk/Diary/Christmas-Day-2025-12-25
+DESCRIPTION:More details - http://www.FRCS.greenhousecms.co.uk/Diary/Christmas-Day-2025-12-25
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM
