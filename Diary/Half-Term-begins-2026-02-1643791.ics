@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE:20260216
-UID:http://www.collegiate.greenhousecms.co.uk/Diary/Half-Term-begins-2026-02-16/index.asp?PCID=43791
-URL;VALUE=URI:http://www.collegiate.greenhousecms.co.uk/Diary/Half-Term-begins-2026-02-16
+UID:http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-begins-2026-02-16/index.asp?PCID=43791
+URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-begins-2026-02-16
 SUMMARY:HalfTerm begins
-DESCRIPTION:; More details - http://www.collegiate.greenhousecms.co.uk/Diary/Half-Term-begins-2026-02-16
+DESCRIPTION:; More details - http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-begins-2026-02-16
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

@@ -8,10 +8,10 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE:20251226
-UID:http://www.collegiate.greenhousecms.co.uk/Diary/Boxing-Day-2025-12-26/index.asp?PCID=23558
-URL;VALUE=URI:http://www.collegiate.greenhousecms.co.uk/Diary/Boxing-Day-2025-12-26
+UID:http://www.FRC.greenhousecms.co.uk/Diary/Boxing-Day-2025-12-26/index.asp?PCID=23558
+URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Boxing-Day-2025-12-26
 SUMMARY:Boxing Day
-DESCRIPTION:More details - http://www.collegiate.greenhousecms.co.uk/Diary/Boxing-Day-2025-12-26
+DESCRIPTION:More details - http://www.FRC.greenhousecms.co.uk/Diary/Boxing-Day-2025-12-26
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

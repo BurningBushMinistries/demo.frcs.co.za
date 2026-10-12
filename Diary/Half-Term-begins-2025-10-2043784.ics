@@ -9,10 +9,10 @@ BEGIN:VEVENT
 DTSTAMP:20250501T120800
 DTSTART;VALUE=DATE-TIME:20251020T000000
 DTEND;VALUE=DATE-TIME:20251031T000000
-UID:http://www.collegiate.greenhousecms.co.uk/Diary/Half-Term-begins-2025-10-20/index.asp?PCID=43784
-URL;VALUE=URI:http://www.collegiate.greenhousecms.co.uk/Diary/Half-Term-begins-2025-10-20
+UID:http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-begins-2025-10-20/index.asp?PCID=43784
+URL;VALUE=URI:http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-begins-2025-10-20
 SUMMARY:HalfTerm begins
-DESCRIPTION:School closed.; More details - http://www.collegiate.greenhousecms.co.uk/Diary/Half-Term-begins-2025-10-20
+DESCRIPTION:School closed.; More details - http://www.FRC.greenhousecms.co.uk/Diary/Half-Term-begins-2025-10-20
 PRIORITY:5
 CLASS:PUBLIC
 BEGIN:VALARM

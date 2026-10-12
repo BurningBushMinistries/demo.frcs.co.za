@@ -2,31 +2,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from www.collegiate.org.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 May 2025 11:05:03 GMT -->
+<!-- Mirrored from www.FRC.org.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 May 2025 11:05:03 GMT -->
 <head>
 	<!--pageID 11375-->
 	
 		<meta charset="UTF-8">
         
-        <title>Collegiate School - Home</title>
+        <title>FRC School - Home</title>
 
-        <meta name="description" content="Welcome to the website of Collegiate School" />
-        <meta name="keywords" content="Collegiate School, Bell Hill, Stapleton, Bristol" />
-        <meta name="author" content="Collegiate School website"/>
+        <meta name="description" content="Welcome to the website of FRC School" />
+        <meta name="keywords" content="FRC School, Bell Hill, Stapleton, Bristol" />
+        <meta name="author" content="FRC School website"/>
         
                 <meta name="robots" content="INDEX, FOLLOW"/>
                 <meta name="revisit-after" content="2 days"/>
         
         <meta name="rating" content="General"/>
-		<meta property="og:site_name" content="Collegiate School" />
+		<meta property="og:site_name" content="FRC School" />
 <meta property="og:title" content="Home" />
-<meta property="og:url" content="https://www.collegiate.greenhousecms.co.uk/" />
+<meta property="og:url" content="https://www.FRC.greenhousecms.co.uk/" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="Welcome to the website of Collegiate School" />
+<meta property="og:description" content="Welcome to the website of FRC School" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Home" />
-<meta name="twitter:description" content="Welcome to the website of Collegiate School" />
-<meta name="twitter:url" content="https://www.collegiate.greenhousecms.co.uk/" />
+<meta name="twitter:description" content="Welcome to the website of FRC School" />
+<meta name="twitter:url" content="https://www.FRC.greenhousecms.co.uk/" />
 
         
         <link rel="shortcut icon" href="faviconb6f8.ico?v=GSW" />
@@ -89,6 +89,38 @@ ul.staff-list li a .staff-position { color: #222!important; }
 @media only screen and (max-width: 1450px) {  footer .right { height: 515px; }}
 @media only screen and (max-width: 990px) { footer .right { height: 250px; }}
 
+.slider-inner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* fullscreen like your video */
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 300%; /* number of slides * 100% */
+  height: 100%;
+  animation: slide 12s infinite;
+}
+
+.slide {
+  flex: 1 0 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Keyframes for autoplay */
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
 </style>
 
 <!-- jQuery -->
@@ -138,38 +170,6 @@ ul.staff-list li a .staff-position { color: #222!important; }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -196,25 +196,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div id="slider">
+    <div id="slider" class="slider-inner">
 
         
-        <div class="video-inner">
-            <video autoplay muted loop playsinline id="home-video">
+        <div class="video-inner" class="slider-inner">
+            <!-- <video autoplay muted loop playsinline id="home-video">
                 <source
                     src="https://player.vimeo.com/progressive_redirect/playback/1064605457/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=96181ccbcedeced73c081d9738ba6c1f86b3f30364d50e7750cc853cd480392c&amp;user_id=4755200"
                     type="video/mp4" />
-            </video>
+            </video> -->
+
+			<!-- <div class="slide"><img src="i/photos/IMG_5548_copy_thumb.jpg" alt="Slide 1"></div> -->
+			<div class="slide"><img src="i/main/Gr 1-4.jpg" alt="Slide 2"></div>
+			<div class="slide"><img src="i/main/Gr 5-7.jpg" alt="Slide 3"></div>
+			<div class="slide"><img src="i/main/IMG_6383.JPG" alt="Slide 4"></div>
+			<div class="slide"><img src="i/main/Staff_not_formal.jpg" alt="Slide 5"></div>
+			<div class="slide"><img src="i/main/welcome-img.jpg" alt="Slide 6"></div>
+
         </div>
         
 
         <header>
             <div class="wrapper">
 
-                <h1 class="hidden" title="Go to home page">Collegiate School</h1>
+                <h1 class="hidden" title="Go to home page">FRC School</h1>
 
                 <div id="logo-index"><a href="index-2.html">
-                        <img src="i/design/school-logo.png" id="logo" alt="Collegiate School">
+                        <img src="i/design/school-logo.png" id="logo" alt="FRC School">
                     </a>
                 </div>
             </div>
@@ -247,17 +255,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <svg class="svg-text-container" width="100%" height="200">
             <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
                 <tspan class="text">We are </tspan>
-                <tspan class="highlight">Collegiate</tspan>
+                <tspan class="highlight">FRC</tspan>
             </text>
         </svg>
         
 
-    </div><!-- Slider -->
+    </div>
+	
+	<!-- Slider -->
 
     
 		<ul class="eacdude">
 			<li><a href="Visit-Us/index.html">Visit Us</a></li>
-			<li><a href="Applying-to-Collegiate/index.html">Apply</a></li>
+			<li><a href="Applying-to-FRC/index.html">Apply</a></li>
 			<!-- <li><a href="/Contact">Contact</a></li> -->
 		</ul>
     
@@ -273,14 +283,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul id="dmenu" class="nav">
 <li id="TopNavLi2172"><a href="index.html" id="nav2172">Home</a>
 </li><li id="TopNavLi2173"><a href="About-Us/index.html" id="nav2173">Our School</a>
-<ul><li><a href="Head-s-Welcome/index.html">Head's Welcome</a></li><li><a href="Who-We-Are/index.html">Our History</a></li><li><a href="Staff/index.html">Meet the Staff</a></li><li><a href="Meet-the-Pupils/index.html">Meet the Pupils</a></li><li><a href="Governors/index.html">Our Governors</a></li><li><a href="Parents-Society/index.html">Parents' Society</a></li><li><a href="OC-Society/index.html">The OC Society</a></li><li><a href="The-Collegiate-Chronicle/index.html">The Collegiate Chronicle</a></li><li><a href="Vacancies/index.html">Vacancies</a></li></ul></li><li id="TopNavLi2174"><a href="Learning/index.html" id="nav2174">Prep</a>
+
+	<!-- <ul><li><a href="Head-s-Welcome/index.html">Head's Welcome</a></li><li><a href="Who-We-Are/index.html">Our History</a></li><li><a href="Staff/index.html">Meet the Staff</a></li><li><a href="Meet-the-Pupils/index.html">Meet the Pupils</a></li><li><a href="Governors/index.html">Our Governors</a></li><li><a href="Parents-Society/index.html">Parents' Society</a></li><li><a href="OC-Society/index.html">The OC Society</a></li><li><a href="The-FRC-Chronicle/index.html">The FRC Chronicle</a></li><li><a href="Vacancies/index.html">Vacancies</a></li></ul></li><li id="TopNavLi2174"><a href="Learning/index.html" id="nav2174">Prep</a>
 <ul><li><a href="Welcome-to-the-Prep-School/index.html">Head's Welcome</a><ul><li><a href="Years-3-6/index.html">Years 3 - 6</a></li><li><a href="Pastoral-Care/index.html">Pastoral Care</a></li><li><a href="Beyond-the-Classroom/index.html">Beyond the Classroom</a></li><li><a href="Support-and-Extension/index.html">Support and Extension</a></li><li><a href="Partnership-with-Home/index.html">Partnership with Home</a></li></ul></li><li><a href="Pre-Prep/index.html">Pre-Prep</a><ul><li><a href="EYFS/index.html">EYFS</a></li><li><a href="Years-1-2/index.html">Years 1 - 2</a></li><li><a href="Stay-Play/index.html">Stay &amp; Play</a></li></ul></li></ul></li><li id="TopNavLi2175"><a href="Parents/index.html" id="nav2175">Senior</a>
 <ul><li><a href="Academic-Excellence/index.html">Academic Excellence</a><ul><li><a href="Faculties/index.html">Faculties</a></li></ul></li><li><a href="Beyond-the-Classroom-18022025223826/index.html">Beyond the Classroom</a></li><li><a href="Support-Extension/index.html">Support &amp; Extension</a></li><li><a href="Pastoral-Care-18022025224601/index.html">Pastoral Care</a></li><li><a href="Partnerships-with-Home/index.html">Partnerships with Home</a></li></ul></li><li id="TopNavLi2176"><a href="Key-Info/index.html" id="nav2176">Sixth Form</a>
 <ul><li><a href="Welcome-to-Sixth-Form/index.html">Welcome to Sixth Form</a></li><li><a href="Future-Leaders/index.html">Future Leaders</a></li><li><a href="What-We-Study/index.html">What We Study</a></li></ul></li><li id="TopNavLi2177"><a href="News/index.html" id="nav2177">News</a>
 <ul><li><a href="News/Latest-News/index.html">Latest News</a></li><li><a href="News/Social-Media/index.html">Social Media</a></li><li><a href="News/Our-Videos/index.html">Our Videos</a></li></ul></li><li id="TopNavLi2281"><a href="#" id="nav2281">Information</a>
-<ul><li><a href="Calendar/index.html">Calendar</a></li><li><a href="Parents-18022025231037/index.html">Parents</a><ul><li><a href="Parent-Portal/index.html">Parent Portal</a></li><li><a href="Uniform/index.html">Uniform</a></li></ul></li><li><a href="Pupils/index.html">Pupils</a></li><li><a href="Our-Facilities/index.html">Our Facilities</a></li><li><a href="Collegiate-7s/index.html">Collegiate 7s</a></li><li><a href="Policies/index.html">School Policies</a></li><li><a href="School-Transport/index.html">School Transport</a></li><li><a href="ISI-Reports/index.html">ISI Reports</a></li></ul></li><li id="TopNavLi2376"><a href="#" id="nav2376">Admissions</a>
-<ul><li><a href="Visit-Us/index.html">Visit Us</a><ul><li><a href="Individual-Visits/index.html">Individual Visits</a></li><li><a href="Taster-Days/index.html">Taster Days</a></li></ul></li><li><a href="Applying-to-Collegiate/index.html">Applying to Collegiate</a><ul><li><a href="Prospectuses/index.html">Prospectuses</a></li><li><a href="Scholarships-Bursaries/index.html">Scholarships &amp; Bursaries</a></li><li><a href="International-Students/index.html">International Students</a></li><li><a href="CNED/index.html">CNED</a></li><li><a href="Fees/index.html">Fees</a></li></ul></li></ul></li><li id="TopNavLi2178"><a href="contact/index.html" id="nav2178">Contact</a>
-</li></ul>
+<ul><li><a href="Calendar/index.html">Calendar</a></li><li><a href="Parents-18022025231037/index.html">Parents</a><ul><li><a href="Parent-Portal/index.html">Parent Portal</a></li><li><a href="Uniform/index.html">Uniform</a></li></ul></li><li><a href="Pupils/index.html">Pupils</a></li><li><a href="Our-Facilities/index.html">Our Facilities</a></li><li><a href="FRC-7s/index.html">FRC 7s</a></li><li><a href="Policies/index.html">School Policies</a></li><li><a href="School-Transport/index.html">School Transport</a></li><li><a href="ISI-Reports/index.html">ISI Reports</a></li></ul></li><li id="TopNavLi2376"><a href="#" id="nav2376">Admissions</a>
+<ul><li><a href="Visit-Us/index.html">Visit Us</a><ul><li><a href="Individual-Visits/index.html">Individual Visits</a></li><li><a href="Taster-Days/index.html">Taster Days</a></li></ul></li><li><a href="Applying-to-FRC/index.html">Applying to FRC</a><ul><li><a href="Prospectuses/index.html">Prospectuses</a></li><li><a href="Scholarships-Bursaries/index.html">Scholarships &amp; Bursaries</a></li><li><a href="International-Students/index.html">International Students</a></li><li><a href="CNED/index.html">CNED</a></li><li><a href="Fees/index.html">Fees</a></li></ul></li></ul></li> -->
+
+<li id="TopNavLi2178"><a href="contact/index.html" id="nav2178">Contact</a></li></ul>
         </div>
     </nav>
 
@@ -294,14 +306,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section id="welcome-sec">
 <div class="wrapper">
 <div class="text-cont">
-<h2>Welcome to <br /> Collegiate School</h2>
-<p>Collegiate School is a grounded, holistic school in the beautiful city of Bristol where individuals of many and varied talents, abilities and backgrounds work together in order for each individual to maximise their potential in all areas. <br /><br />Academic ability and effort are highly valued, but so too are abilities and effort in other areas; creative, physical, social and philanthropic. Staff and students recognise that academic outcomes are important, but they also recognise that there is a great deal more to an education in the broader sense. <br /><br />Our pupils are provided with many opportunities to learn much more than that which is required to pass examinations and should understand their position in and responsibility to their wider communities. <br /><br /> The school was founded in the Christian faith and church services and Christian messages still form part of the school year, but Collegiate now welcomes members of any faith or those with none. Collegiate is proud of its diverse community and inclusive identity.</p>
+<h2>Welcome to <br /> Faith Revival Christian School</h2>
+<p>Our vision is to instill in each child the fear of the Lord through Biblical education. We, thus, make it our main goal to develop a complete human being through academic excellence and character building.
+	<br /><br />
+	At the heart of our school lies a commitment to personal character development, nurturing the young minds to be the best version of what God created them to be. 
+	We are privileged to be using a world-class, individualized, educational methodology, Accelerated Christian Education (ACE), that is innovative and well-designed to fully unlock each student’s academic potential.
+	  <br /><br />
+	  Passionate and devoted teaching staff, fully engaging parents, and excited pupils all contribute to making our campus a desirable place to learn and grow. Our learners engage in various sporting and cultural 
+	  events that create lifelong memories. We pride ourselves on maintaining a clean and safe environment in which each learner’s uniqueness is appreciated.
+	 <br /><br /> 
+	 Situated on the shores of the warm Indian Ocean in East London, Faith Revival Christian School is committed to making schooling a memorable experience, producing caring individuals who are 
+	 making an impact in the world by being the light and the salt the world desperately needs.
+</p>
 <a class="read-more" href="Head-s-Welcome/index.html">HEAD'S WELCOME</a></div>
 <div class="video-cont"><!-- <h2>Go and do thou likewise</h2> --> <a class="vimeo-video" href="#" data-video-id="1005357346">Watch our Welcome Video <img src="i/design/arrow-blue.png" alt="More" /></a></div>
 </div>
 </section>
 <section id="btns-sec">
-<div class="wrapper"><!-- <h2>See what is happening <br>at collegiate</h2>
+<div class="wrapper"><!-- <h2>See what is happening <br>at FRC</h2>
 					<a href="#" target="_blank" class="more">See Our Instagram <img src="/i/design/arrow-blue.png"
 							alt="More"></a> -->
 <ul class="btns">
@@ -309,7 +331,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><a href="Welcome-to-the-Prep-School/index.html" title="Welcome to our Prep School"><img src="i/graphics/hp-photo-btns/2.jpg" alt="Pre-School" /><span>Prep School</span></a></li>
 <li><a href="Head-s-Welcome/index.html" title="Welcome to our Senior School"><img src="i/graphics/hp-photo-btns/3.jpg" alt="Senior School" /><span>Senior School</span></a></li>
 <li><a href="Welcome-to-Sixth-Form/index.html" title="Welcome to our Sixth Form"><img src="i/graphics/hp-photo-btns/4.jpg" alt="Sixth-Form" /><span>Sixth Form</span></a></li>
-<li><a href="Applying-to-Collegiate/index.html"><img src="i/graphics/hp-photo-btns/5.jpg" alt="We Are Collegiate" /><span>join us<br /></span></a></li>
+<li><a href="Applying-to-FRC/index.html"><img src="i/graphics/hp-photo-btns/5.jpg" alt="We Are FRC" /><span>join us<br /></span></a></li>
 </ul>
 </div>
 </section>
@@ -331,7 +353,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<p class="title"><span>Olly Robinson appointed as Head of Rugby</span></p>
 						<p class="desc">
 							<span>
-								Collegiate School is delighted to announce the appointment of Olly Robinson as their next Head of Rugby.
+								FRC School is delighted to announce the appointment of Olly Robinson as their next Head of Rugby.
 							</span>
 						</p>
 					</a>
@@ -344,7 +366,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<p class="title"><span>House Song 2025!</span></p>
 						<p class="desc">
 							<span>
-								Collegiate pupils wowed the judges and audience at the House Song Competition, with Dolphin being crowned the winners.
+								FRC pupils wowed the judges and audience at the House Song Competition, with Dolphin being crowned the winners.
 							</span>
 						</p>
 					</a>
@@ -357,7 +379,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<p class="title"><span>It's Official - we're the Best in Bristol!</span></p>
 						<p class="desc">
 							<span>
-								Collegiate School tops the table for Sixth Form Value-Added in Bristol.
+								FRC School tops the table for Sixth Form Value-Added in Bristol.
 							</span>
 						</p>
 					</a>
@@ -389,37 +411,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<h2>Contact</h2>
 
 			<ul class="footer-dock">
-				<li><a href="https://twitter.com/CollegiateSB" target="_blank">
+				<li><a href="https://twitter.com/FRCSB" target="_blank">
 						<img src="i/design/tw-ic.png" title="Twitter" alt="Twitter">
 					</a><span class="tooltip">Twitter</span></li>
-				<li><a href="https://www.instagram.com/collegiateschoolbristol/" target="_blank">
+				<li><a href="https://www.instagram.com/FRCschoolbristol/" target="_blank">
 						<img src="i/design/in-ic.png" title="Instagram" alt="Instagram">
 					</a><span class="tooltip">Instagram</span></li>
-				<li><a href="https://www.facebook.com/CollegiateSchoolBristol" target="_blank">
+				<li><a href="https://www.facebook.com/FRCSchoolBristol" target="_blank">
 						<img src="i/design/fb-ic.png" title="Facebook" alt="Facebook">
 					</a><span class="tooltip">Facebook</span></li>
 			</ul>
 
 			<p class="address">
-				<strong>Collegiate School</strong>
+				<strong>FRC School</strong>
 			</p>
 
 			<div class="left-deets">
 				<p> <span>Senior School</span>
-					Stapleton, Bristol <br>
-					BS16 1BJ <br>
-					<a href ="tel:01179655207">0117 9655207</a></p>
+							<p> <span>Senior School</span>
+					1 Ganteaume Cres, Quigney, <br> East London, 5201 <br>
+					<a href ="tel:081 409 5564">081 409 5564</a></p>
 			</div>
 
 			<div class="right-deets">
 				<span>Prep School</span>
-				Stapleton, Bristol <br>
-				BS16 1BA <br>
-				<a href="tel:01179655297">0117 9655297</a></p>
+					<p> <span>Senior School</span>
+					1 Ganteaume Cres, Quigney, <br> East London, 5201 <br>
+					<a href ="tel:081 409 5564">081 409 5564</a></p>
 			</div>
 
 			<p class="mail-link">
-				<a href="mailto:enquiries@collegiate.org.uk?subject=Enquiry%20from%20website">
+				<a href="mailto:enquiries@FRC.org.uk?subject=Enquiry%20from%20website">
 					Email Us <img src="i/design/arrow-white.png" alt="More"></a>
 			</p>
 		</div>
@@ -428,7 +450,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="map">
 				<h2>Find us on the map</h2>
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.788335356115!2d-2.5583645231015333!3d51.48039941267507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e2e98e5a83f%3A0xb02aac790be19d9c!2sCollegiate%20School!5e0!3m2!1sen!2suk!4v1741599592485!5m2!1sen!2suk&amp;layer=c"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.788335356115!2d-2.5583645231015333!3d51.48039941267507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e2e98e5a83f%3A0xb02aac790be19d9c!2sFRC%20School!5e0!3m2!1sen!2suk!4v1741599592485!5m2!1sen!2suk&amp;layer=c"
 					width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -453,7 +475,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="wrapper">
 
 		<p id="copyright">&copy;
-			2025&nbsp;Collegiate School
+			2025&nbsp;FRC School
 			&middot; <a href="legal/index.html">Legal Information</a>
 		</p>
 
@@ -469,7 +491,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- search overlay -->
 <div id="search">
-	<form id="FS" method="post" action="https://www.collegiate.org.uk/inc/Search/">
+	<form id="FS" method="post" action="https://www.FRC.org.uk/inc/Search/">
 		<label for="search-field" class="sr-only">Search site</label>
 		<input placeholder="Search site" name="S" type="search" id="search-field" onfocus="resetsearch()"
 			value="Search site">
@@ -488,17 +510,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 
 	<ul id="externalSocialLinks">
-		<li><a href="https://www.facebook.com/CollegiateSchoolBristol" target="_blank"><img src="i/design/svg/external-social/facebook.svg" alt="Facebook">
+		<li><a href="https://www.facebook.com/FRCSchoolBristol" target="_blank"><img src="i/design/svg/external-social/facebook.svg" alt="Facebook">
 				<span>Facebook</span></a></li>
-		<li><a href="https://www.instagram.com/collegiateschoolbristol/" target="_blank"><img src="i/design/svg/external-social/instagram.svg" alt="Instagram">
+		<li><a href="https://www.instagram.com/FRCschoolbristol/" target="_blank"><img src="i/design/svg/external-social/instagram.svg" alt="Instagram">
 				<span>Instagram</span></a></li>
-		<li><a href="https://uk.linkedin.com/school/collegiate-school-bristol/" target="_blank"><img src="i/design/svg/external-social/linkedin.svg" alt="LinkedIn">
+		<li><a href="https://uk.linkedin.com/school/FRC-school-bristol/" target="_blank"><img src="i/design/svg/external-social/linkedin.svg" alt="LinkedIn">
 				<span>LinkedIn</span></a></li>
-		<li><a href="https://twitter.com/CollegiateSB" target="_blank"><img src="i/design/svg/external-social/x.svg" alt="X">
+		<li><a href="https://twitter.com/FRCSB" target="_blank"><img src="i/design/svg/external-social/x.svg" alt="X">
 				<span>X</span></a></li>
-		<!--<li><a href="https://vimeo.com/collegiateschoolbristol" target="_blank"><img src="/i/design/svg/external-social/vimeo.svg" alt="Vimeo">
+		<!--<li><a href="https://vimeo.com/FRCschoolbristol" target="_blank"><img src="/i/design/svg/external-social/vimeo.svg" alt="Vimeo">
 				<span>Vimeo</span></a></li>-->
-		<li><a href="https://www.youtube.com/@CollegiateSchoolBristol" target="_blank"><img src="i/design/svg/external-social/youtube.svg" alt="Youtube">
+		<li><a href="https://www.youtube.com/@FRCSchoolBristol" target="_blank"><img src="i/design/svg/external-social/youtube.svg" alt="Youtube">
 				<span>Youtube</span></a></li>
 	</ul>
 </div>
@@ -519,8 +541,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		// ----- backstretch
 
   $("#slider").backstretch([
-           	  	"/i/photos/Gallery/Home/Banners_for_Website__12_.jpg" , 
-  	  	"i/photos/Gallery/Home/Banners_for_Website__1_.jpg" , 
+           	  	"/i/main/Gr 5-7.jpg" , 
+  	  	"i/photos/Gallery/Home/i/main/IMG_6383.JPG" , 
   	  	"i/photos/Gallery/Home/Banners_for_Website__2_.jpg" , 
   	  	"i/photos/Gallery/Home/Banners_for_Website__4_.jpg" , 
   	  	"i/photos/Gallery/Home/school_building.jpg" , 
@@ -583,7 +605,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 document.addEventListener('DOMContentLoaded', function () {
 function addAltTags() {
 const altImages = document.querySelectorAll('.backstretch img');
-altImages.forEach(function (img) {if (!img.hasAttribute('alt') || img.getAttribute('alt').trim() === '') {img.setAttribute('alt', 'A photo from Collegiate School');}});}
+altImages.forEach(function (img) {if (!img.hasAttribute('alt') || img.getAttribute('alt').trim() === '') {img.setAttribute('alt', 'A photo from FRC School');}});}
 addAltTags();
 const altObserver = new MutationObserver(addAltTags);
 altObserver.observe(document.querySelector('.backstretch'), {childList: true,subtree: true});
@@ -600,7 +622,7 @@ altObserver.observe(document.querySelector('.backstretch'), {childList: true,sub
 
     <!-- Modal -->
 	
-        <link href="inc/modal/modal.css" rel="stylesheet" type="text/css" />
+        <!-- <link href="inc/modal/modal.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript">
             //Close modal
             $(function () {
@@ -624,7 +646,7 @@ altObserver.observe(document.querySelector('.backstretch'), {childList: true,sub
                     $(".open-CMSmodal").css({display: "none" });
                 });
             });
-        </script>
+        </script> -->
         <!-- ModalPreview NOT y --><!-- ModalFileName = modal.asp  ----- ModalText = 
 <div class="CMSmodal-home mceNonEditable">
 <div class="message-CMSmodal mceNonEditable">
@@ -632,8 +654,8 @@ altObserver.observe(document.querySelector('.backstretch'), {childList: true,sub
 <div class="CMSmodal-text mceNonEditable">
 <div class="CMSmodal">
 <h1 style="text-align: center;">Visit us at our <strong>Whole School Working </strong><br /><strong>Open Morning</strong> on Friday May 2nd!</h1>
-<h1>To book your place, click <strong><a href="https://www.collegiate.org.uk/Open-Days/" title="Book Your Place">HERE</a></strong>.</h1>
-<p><img src="/i/Collegiate_2024-528.jpg" width="1920" height="1280" alt="" class="" /></p>
+<h1>To book your place, click <strong><a href="https://www.FRC.org.uk/Open-Days/" title="Book Your Place">HERE</a></strong>.</h1>
+<p><img src="/i/FRC_2024-528.jpg" width="1920" height="1280" alt="" class="" /></p>
 <p>To book you</p>
 <p>Enter your messa here</p>
 </div>
@@ -643,23 +665,23 @@ altObserver.observe(document.querySelector('.backstretch'), {childList: true,sub
 </div>
 
 
- ---- request(ModalPreview) =  --><button class="open-CMSmodal" title="Re-open the notice"></button>
-
-<div class="CMSmodal-home mceNonEditable">
+ ---- request(ModalPreview) =  <button class="open-CMSmodal" title="Re-open the notice"></button>
+-->
+<!-- <div class="CMSmodal-home mceNonEditable">
 <div class="message-CMSmodal mceNonEditable">
 <div class="CMSmodal-content mceNonEditable"><a class="close-CMSmodal mceNonEditable" href="#" aria-label="Close this notice"><img src="inc/modal/close.png" alt="Close" /></a>
 <div class="CMSmodal-text mceNonEditable">
 <div class="CMSmodal">
 <h1 style="text-align: center;">Visit us at our <strong>Whole School Working </strong><br /><strong>Open Morning</strong> on Friday May 2nd!</h1>
 <h1>To book your place, click <strong><a href="Open-Days/index.html" title="Book Your Place">HERE</a></strong>.</h1>
-<p><img src="i/Collegiate_2024-528.jpg" width="1920" height="1280" alt="" class="" /></p>
+<p><img src="i/FRC_2024-528.jpg" width="1920" height="1280" alt="" class="" /></p>
 <p>To book you</p>
 <p>Enter your messa here</p>
 </div>
 </div>
 </div>
 </div>
-</div>
+</div> -->
 
 
 
@@ -685,5 +707,5 @@ altObserver.observe(document.querySelector('.backstretch'), {childList: true,sub
 
 </body>
 
-<!-- Mirrored from www.collegiate.org.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 May 2025 11:06:07 GMT -->
+<!-- Mirrored from www.FRC.org.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 May 2025 11:06:07 GMT -->
 </html>
